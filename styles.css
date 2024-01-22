@@ -101,3 +101,19 @@ margin-bottom: 25px;
 .checked::before{
   background-image: url(/images/checked.png);
 }
+
+.span{
+  position: absolute;
+  right: 0;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.span:hover{
+  background: #edeef0;
+  border-radius: 50%;
+}
